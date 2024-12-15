@@ -28,7 +28,6 @@ mediapipe_detection: Converts the image to RGB, runs it through the MediaPipe mo
 draw_landmarks: Draws the detected landmarks for the face, hands, and body pose on the image.
 Key Steps:
 Initialization:
-
 The holistic model is set up for detecting facial, hand, and pose landmarks.
 Functions for detecting and drawing landmarks are defined.
 Real-time Data Collection:
@@ -39,3 +38,5 @@ Important Points:
 The dataset is being built using hand, pose, and face landmarks from the MediaPipe library.
 The collected data is stored in NumPy array format for later use in model training.
 Real-time application: This script can be used in real-time applications to collect landmarks for further model training or deployment.
+
+
