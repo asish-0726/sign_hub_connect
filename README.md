@@ -17,8 +17,8 @@ The first phase of the project is dedicated to collecting data for training. The
 
 2. Libraries and Setup:
    Required Libraries:
-   cv2: OpenCV for image processing.
-   numpy: For numerical operations.
-   mediapipe: For landmark detection.
-   matplotlib: For visualization purposes.
+   1. cv2: OpenCV for image processing.
+   2. numpy: For numerical operations.
+   3. mediapipe: For landmark detection.
+   4. matplotlib: For visualization purposes.
 The necessary models are loaded via the MediaPipe library, specifically the holistic model for full-body landmark detection.
