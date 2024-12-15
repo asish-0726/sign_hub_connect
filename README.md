@@ -14,11 +14,11 @@ Now lets talk about Data Collection Part
 DATA COLLECTION PART 
 1.Data Collection:
 The first phase of the project is dedicated to collecting data for training. The notebook utilizes the OpenCV library and MediaPipe to detect and draw various landmarks on the human body (hands, pose, and face).These landmarks are captured from the webcam and saved as images. These images are laterconverted into NumPy arrays for use in training the model.
-2. Libraries and Setup:
 
-  Required Libraries:
-    cv2: OpenCV for image processing.
-    numpy: For numerical operations.
-    mediapipe: For landmark detection.
-    matplotlib: For visualization purposes.
-  The necessary models are loaded via the MediaPipe library, specifically the holistic model      for full-body landmark detection.
+2. Libraries and Setup:
+   Required Libraries:
+   cv2: OpenCV for image processing.
+   numpy: For numerical operations.
+   mediapipe: For landmark detection.
+   matplotlib: For visualization purposes.
+The necessary models are loaded via the MediaPipe library, specifically the holistic model for full-body landmark detection.
